@@ -1,0 +1,16 @@
+{
+  "name": "un-tweet",
+  "version": "1.0.0",
+  "description": "Auto-delete tweets older than 7 days",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.28.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
