@@ -62,7 +62,7 @@ async function fetchTweets(userId) {
   try {
     const tweets = await client.v2.userTimeline(userId, {
       max_results: 100,
-      'tweet.fields': ['created_at'],
+      'tweet.fields': ['created_at', 'text'],
     });
 
     if (!tweets.data?.data) {
@@ -96,14 +96,20 @@ async function deleteTweets(tweets) {
 
   for (const tweet of tweets) {
     try {
+      const truncatedText = tweet.text.length > 100
+        ? tweet.text.slice(0, 100) + '...'
+        : tweet.text;
+
       if (DRY_RUN) {
         console.log(`[DRY RUN] Would delete: ${tweet.id} (${tweet.created_at})`);
+        console.log(`  "${truncatedText}"`);
         deleted++;
         continue;
       }
 
       await client.v2.deleteTweet(tweet.id);
       console.log(`Deleted: ${tweet.id} (${tweet.created_at})`);
+      console.log(`  "${truncatedText}"`);
       deleted++;
 
       // Small delay between deletes to be gentle on the API
