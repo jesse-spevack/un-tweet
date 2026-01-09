@@ -6,6 +6,7 @@ Automatically delete your tweets older than 7 days. Runs daily via GitHub Action
 
 - Fetches your most recent 100 tweets
 - Deletes any tweets older than 7 days
+- Archives deleted tweets to `archive.json` before deletion
 - Logs deleted tweet content to GitHub Actions logs
 - Runs automatically once per day at 00:00 UTC
 - Stays within X/Twitter API free tier limits (17 deletes per day)
@@ -116,3 +117,21 @@ The retention period (7 days) is set in `src/index.js`. To change it, modify the
 
 **"Missing required environment variables"**
 - Ensure all 4 Twitter secrets are set in GitHub repository settings
+
+## Tweet Archive
+
+Deleted tweets are saved to `archive.json` in the repository before deletion. Each archived tweet includes:
+
+- `id` — Tweet ID
+- `text` — Full tweet content
+- `created_at` — When the tweet was posted
+- `deleted_at` — When it was deleted
+- `public_metrics` — Likes, retweets, replies, quotes
+- `entities` — Hashtags, mentions, URLs
+- `source` — Client used to post (e.g., "Twitter Web App")
+- `conversation_id` — Thread ID if part of a thread
+- `in_reply_to_user_id` — Who you replied to
+- `referenced_tweets` — Original tweet if RT/quote/reply
+- `lang` — Detected language
+
+The archive is automatically committed to the repo after each run.

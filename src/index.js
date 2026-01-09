@@ -1,4 +1,11 @@
 import { TwitterApi } from 'twitter-api-v2';
+import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+// Get project root directory
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ARCHIVE_PATH = join(__dirname, '..', 'archive.json');
 
 // Configuration
 const DAYS_TO_KEEP = 7;
@@ -38,6 +45,43 @@ const client = new TwitterApi({
   accessSecret: TWITTER_ACCESS_SECRET,
 });
 
+// Archive functions
+function loadArchive() {
+  if (!existsSync(ARCHIVE_PATH)) {
+    return { tweets: [], meta: { created_at: new Date().toISOString(), total_deleted: 0 } };
+  }
+  try {
+    const data = readFileSync(ARCHIVE_PATH, 'utf-8');
+    return JSON.parse(data);
+  } catch (error) {
+    console.warn('Could not load archive, starting fresh:', error.message);
+    return { tweets: [], meta: { created_at: new Date().toISOString(), total_deleted: 0 } };
+  }
+}
+
+function saveArchive(archive) {
+  archive.meta.last_updated = new Date().toISOString();
+  archive.meta.total_deleted = archive.tweets.length;
+  writeFileSync(ARCHIVE_PATH, JSON.stringify(archive, null, 2));
+  console.log(`Archive saved: ${archive.tweets.length} total tweets`);
+}
+
+function archiveTweet(archive, tweet) {
+  archive.tweets.push({
+    id: tweet.id,
+    text: tweet.text,
+    created_at: tweet.created_at,
+    deleted_at: new Date().toISOString(),
+    public_metrics: tweet.public_metrics || null,
+    entities: tweet.entities || null,
+    source: tweet.source || null,
+    conversation_id: tweet.conversation_id || null,
+    in_reply_to_user_id: tweet.in_reply_to_user_id || null,
+    referenced_tweets: tweet.referenced_tweets || null,
+    lang: tweet.lang || null,
+  });
+}
+
 async function getUserId() {
   // Use provided user ID if available (fallback for free tier limitations)
   if (TWITTER_USER_ID) {
@@ -62,7 +106,17 @@ async function fetchTweets(userId) {
   try {
     const tweets = await client.v2.userTimeline(userId, {
       max_results: 100,
-      'tweet.fields': ['created_at', 'text'],
+      'tweet.fields': [
+        'created_at',
+        'text',
+        'public_metrics',
+        'entities',
+        'source',
+        'conversation_id',
+        'in_reply_to_user_id',
+        'referenced_tweets',
+        'lang',
+      ],
     });
 
     if (!tweets.data?.data) {
@@ -90,7 +144,7 @@ function filterOldTweets(tweets, daysToKeep) {
   });
 }
 
-async function deleteTweets(tweets) {
+async function deleteTweets(tweets, archive) {
   let deleted = 0;
   let rateLimited = false;
 
@@ -110,6 +164,9 @@ async function deleteTweets(tweets) {
       await client.v2.deleteTweet(tweet.id);
       console.log(`Deleted: ${tweet.id} (${tweet.created_at})`);
       console.log(`  "${truncatedText}"`);
+
+      // Archive the deleted tweet
+      archiveTweet(archive, tweet);
       deleted++;
 
       // Small delay between deletes to be gentle on the API
@@ -144,6 +201,10 @@ async function main() {
   }
   console.log('');
 
+  // Load existing archive
+  const archive = loadArchive();
+  console.log(`Archive loaded: ${archive.tweets.length} previously deleted tweets`);
+
   // Get user ID
   const userId = await getUserId();
 
@@ -164,7 +225,12 @@ async function main() {
   // Delete old tweets
   console.log('');
   console.log('Deleting old tweets...');
-  const { deleted, rateLimited } = await deleteTweets(oldTweets);
+  const { deleted, rateLimited } = await deleteTweets(oldTweets, archive);
+
+  // Save archive if we deleted anything
+  if (deleted > 0 && !DRY_RUN) {
+    saveArchive(archive);
+  }
 
   // Summary
   console.log('');
