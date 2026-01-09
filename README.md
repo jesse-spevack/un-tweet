@@ -105,7 +105,12 @@ With daily runs, this handles up to 17 tweets per day (119/week), well above typ
 
 ## Configuration
 
-The retention period (7 days) is set in `src/index.js`. To change it, modify the `DAYS_TO_KEEP` constant.
+| Environment Variable | Default | Description |
+|---------------------|---------|-------------|
+| `DAYS_TO_KEEP` | `7` | Delete tweets older than this many days |
+| `DRY_RUN` | `false` | Set to `true` to preview without deleting |
+
+To change the retention period, add `DAYS_TO_KEEP` to your GitHub secrets or set it in the workflow file.
 
 ## Troubleshooting
 

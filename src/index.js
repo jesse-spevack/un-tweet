@@ -8,7 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ARCHIVE_PATH = join(__dirname, '..', 'archive.json');
 
 // Configuration
-const DAYS_TO_KEEP = 7;
+const DAYS_TO_KEEP = parseInt(process.env.DAYS_TO_KEEP || '7', 10);
 const DRY_RUN = process.env.DRY_RUN === 'true';
 
 // Read credentials from environment
