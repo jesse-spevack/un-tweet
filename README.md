@@ -6,8 +6,31 @@ Automatically delete your tweets older than 7 days. Runs daily via GitHub Action
 
 - Fetches your most recent 100 tweets
 - Deletes any tweets older than 7 days
+- Logs deleted tweet content to GitHub Actions logs
 - Runs automatically once per day at 00:00 UTC
 - Stays within X/Twitter API free tier limits (17 deletes per day)
+
+## Example Output
+
+```
+=== Un-Tweet: Auto-delete old tweets ===
+Retention period: 7 days
+
+Using provided user ID: 287787522
+Fetching tweets...
+Found 5 tweets in timeline.
+Found 2 tweets older than 7 days.
+
+Deleting old tweets...
+Deleted: 1983722664687759873 (2025-10-30T02:28:33.000Z)
+  "This is the content of the deleted tweet..."
+Deleted: 1980811935924048238 (2025-10-22T01:42:21.000Z)
+  "Another tweet that was deleted..."
+
+=== Summary ===
+Tweets deleted: 2/2
+Done!
+```
 
 ## Setup
 
