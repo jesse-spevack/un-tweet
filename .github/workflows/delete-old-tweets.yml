@@ -30,6 +30,7 @@ jobs:
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
           TWITTER_USER_ID: ${{ secrets.TWITTER_USER_ID }}
+          DAYS_TO_KEEP: ${{ secrets.DAYS_TO_KEEP }}
         run: npm start
 
       - name: Commit archive
