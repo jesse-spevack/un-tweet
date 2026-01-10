@@ -2,8 +2,8 @@ name: Delete Old Tweets
 
 on:
   schedule:
-    # TESTING: Run at 14:18 UTC, revert to '0 7 * * *' after
-    - cron: '18 14 * * *'
+    # TESTING: Run at 14:28 UTC, revert to '0 7 * * *' after
+    - cron: '28 14 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
