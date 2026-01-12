@@ -19,11 +19,103 @@
       "in_reply_to_user_id": null,
       "referenced_tweets": null,
       "lang": "en"
+    },
+    {
+      "id": "2010007334274380089",
+      "text": "I've been building and using a text to podcast app. https://t.co/BksXU1wSnH",
+      "created_at": "2026-01-10T15:14:27.000Z",
+      "deleted_at": "2026-01-12T07:07:49.791Z",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 16
+      },
+      "entities": {
+        "urls": [
+          {
+            "start": 52,
+            "end": 75,
+            "url": "https://t.co/BksXU1wSnH",
+            "expanded_url": "https://verynormal.info/turn-your-reading-list-into-a-podcast/",
+            "display_url": "verynormal.info/turn-your-read…",
+            "images": [
+              {
+                "url": "https://pbs.twimg.com/news_img/2010007385021247488/_kDHhfl_?format=jpg&name=orig",
+                "width": 1024,
+                "height": 1024
+              },
+              {
+                "url": "https://pbs.twimg.com/news_img/2010007385021247488/_kDHhfl_?format=jpg&name=150x150",
+                "width": 150,
+                "height": 150
+              }
+            ],
+            "status": 200,
+            "title": "Turn Your Reading List Into a Podcast",
+            "description": "What is tts.verynormal.dev? tts.verynormal.dev converts text to audio and delivers it to a personal podcast feed you can listen to in any podcast app. It lets you maintain a reading list of blogs, essays, and articles and work through them the way you would your favorite",
+            "unwound_url": "https://verynormal.info/turn-your-reading-list-into-a-podcast/"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2010007334274380089",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": null,
+      "lang": "en"
+    },
+    {
+      "id": "2010007161284476934",
+      "text": "Here's what I read in 2025: https://t.co/RFjasifLk8",
+      "created_at": "2026-01-10T15:13:46.000Z",
+      "deleted_at": "2026-01-12T07:07:50.365Z",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 5
+      },
+      "entities": {
+        "urls": [
+          {
+            "start": 28,
+            "end": 51,
+            "url": "https://t.co/RFjasifLk8",
+            "expanded_url": "https://verynormal.info/what-i-read-in-2025/",
+            "display_url": "verynormal.info/what-i-read-in…",
+            "images": [
+              {
+                "url": "https://pbs.twimg.com/news_img/2010007203722432512/l4Gji4T2?format=jpg&name=orig",
+                "width": 1024,
+                "height": 1024
+              },
+              {
+                "url": "https://pbs.twimg.com/news_img/2010007203722432512/l4Gji4T2?format=jpg&name=150x150",
+                "width": 150,
+                "height": 150
+              }
+            ],
+            "status": 200,
+            "title": "What I read in 2025",
+            "description": "Here is what I read and what I was thinking in 2025 in rough order of preference colored by recency bias.",
+            "unwound_url": "https://verynormal.info/what-i-read-in-2025/"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2010007161284476934",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": null,
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 1,
-    "last_updated": "2026-01-10T14:36:19.955Z"
+    "total_deleted": 3,
+    "last_updated": "2026-01-12T07:07:50.866Z"
   }
 }
