@@ -111,11 +111,57 @@
       "in_reply_to_user_id": null,
       "referenced_tweets": null,
       "lang": "en"
+    },
+    {
+      "id": "2013277438227386520",
+      "text": "My friend texted me a long article. I was busy with the kids. So I listened to it later while doing the dishes. https://t.co/KFokzN5TA5",
+      "created_at": "2026-01-19T15:48:40.000Z",
+      "deleted_at": "2026-01-21T07:08:25.271Z",
+      "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 25
+      },
+      "entities": {
+        "urls": [
+          {
+            "start": 112,
+            "end": 135,
+            "url": "https://t.co/KFokzN5TA5",
+            "expanded_url": "https://verynormal.info/how-i-read-articles-while-doing-the-dishes/",
+            "display_url": "verynormal.info/how-i-read-art…",
+            "images": [
+              {
+                "url": "https://pbs.twimg.com/news_img/2013277445387108352/0IomDFpf?format=jpg&name=orig",
+                "width": 1456,
+                "height": 816
+              },
+              {
+                "url": "https://pbs.twimg.com/news_img/2013277445387108352/0IomDFpf?format=jpg&name=150x150",
+                "width": 150,
+                "height": 150
+              }
+            ],
+            "status": 200,
+            "title": "How I Read Articles While Doing the Dishes",
+            "description": "You can use tts.verynormal.dev too. Free account gets you two episodes a month. If you need more, it's $9/month for unlimited. Let me know what you think.",
+            "unwound_url": "https://verynormal.info/how-i-read-articles-while-doing-the-dishes/"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2013277438227386520",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": null,
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 3,
-    "last_updated": "2026-01-12T07:07:50.866Z"
+    "total_deleted": 4,
+    "last_updated": "2026-01-21T07:08:25.772Z"
   }
 }
