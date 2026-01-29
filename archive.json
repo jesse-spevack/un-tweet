@@ -157,11 +157,55 @@
       "in_reply_to_user_id": null,
       "referenced_tweets": null,
       "lang": "en"
+    },
+    {
+      "id": "2016177472031674388",
+      "text": "@KEF_Global  Love the sound of my @KEFAudio LSX II LTs. Hate the software. Switching inputs shouldn't be this hard. Please fix this.",
+      "created_at": "2026-01-27T15:52:22.000Z",
+      "deleted_at": "2026-01-29T07:16:17.571Z",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 18
+      },
+      "entities": {
+        "annotations": [
+          {
+            "start": 44,
+            "end": 53,
+            "probability": 0.6984,
+            "type": "Other",
+            "normalized_text": "LSX II LTs"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 0,
+            "end": 11,
+            "username": "KEF_Global",
+            "id": "1570707636802428928"
+          },
+          {
+            "start": 34,
+            "end": 43,
+            "username": "KEFAudio",
+            "id": "34586219"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2016177472031674388",
+      "in_reply_to_user_id": "1570707636802428928",
+      "referenced_tweets": null,
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 4,
-    "last_updated": "2026-01-21T07:08:25.772Z"
+    "total_deleted": 5,
+    "last_updated": "2026-01-29T07:16:18.072Z"
   }
 }
