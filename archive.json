@@ -201,11 +201,66 @@
       "in_reply_to_user_id": "1570707636802428928",
       "referenced_tweets": null,
       "lang": "en"
+    },
+    {
+      "id": "2017804875942531098",
+      "text": "January 2026 Bakery - Enjoy!\nhttps://t.co/5phOjrOwyd",
+      "created_at": "2026-02-01T03:39:06.000Z",
+      "deleted_at": "2026-02-02T07:21:39.999Z",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 21
+      },
+      "entities": {
+        "urls": [
+          {
+            "start": 29,
+            "end": 52,
+            "url": "https://t.co/5phOjrOwyd",
+            "expanded_url": "https://verynormal.info/january-2026-bakery/",
+            "display_url": "verynormal.info/january-2026-b…",
+            "images": [
+              {
+                "url": "https://pbs.twimg.com/news_img/2017804931147960327/cji7myiA?format=jpg&name=orig",
+                "width": 1024,
+                "height": 1024
+              },
+              {
+                "url": "https://pbs.twimg.com/news_img/2017804931147960327/cji7myiA?format=jpg&name=150x150",
+                "width": 150,
+                "height": 150
+              }
+            ],
+            "status": 200,
+            "title": "January 2026 Bakery",
+            "description": "My content diet from January 2026.",
+            "unwound_url": "https://verynormal.info/january-2026-bakery/"
+          }
+        ],
+        "annotations": [
+          {
+            "start": 13,
+            "end": 18,
+            "probability": 0.33,
+            "type": "Place",
+            "normalized_text": "Bakery"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2017804875942531098",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": null,
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 5,
-    "last_updated": "2026-01-29T07:16:18.072Z"
+    "total_deleted": 6,
+    "last_updated": "2026-02-02T07:21:40.501Z"
   }
 }
