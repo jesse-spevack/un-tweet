@@ -256,11 +256,49 @@
       "in_reply_to_user_id": null,
       "referenced_tweets": null,
       "lang": "en"
+    },
+    {
+      "id": "2024186646619672908",
+      "text": "@googlephotos - I use the photo slide show on my Pixel. It would be kinda cool if certain known faces could be on an exclude list. No reason ;)",
+      "created_at": "2026-02-18T18:17:58.000Z",
+      "deleted_at": "2026-02-20T07:19:29.778Z",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 18
+      },
+      "entities": {
+        "annotations": [
+          {
+            "start": 49,
+            "end": 53,
+            "probability": 0.9175,
+            "type": "Other",
+            "normalized_text": "Pixel"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 0,
+            "end": 13,
+            "username": "googlephotos",
+            "id": "289431709"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2024186646619672908",
+      "in_reply_to_user_id": "289431709",
+      "referenced_tweets": null,
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 6,
-    "last_updated": "2026-02-02T07:21:40.501Z"
+    "total_deleted": 7,
+    "last_updated": "2026-02-20T07:19:30.279Z"
   }
 }
