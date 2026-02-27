@@ -294,11 +294,41 @@
       "in_reply_to_user_id": "289431709",
       "referenced_tweets": null,
       "lang": "en"
+    },
+    {
+      "id": "2026730621377327362",
+      "text": "My typos let you know I care. Slop is typo-less.",
+      "created_at": "2026-02-25T18:46:49.000Z",
+      "deleted_at": "2026-02-27T07:17:37.919Z",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 13
+      },
+      "entities": {
+        "annotations": [
+          {
+            "start": 30,
+            "end": 33,
+            "probability": 0.6513,
+            "type": "Other",
+            "normalized_text": "Slop"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2026730621377327362",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": null,
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 7,
-    "last_updated": "2026-02-20T07:19:30.279Z"
+    "total_deleted": 8,
+    "last_updated": "2026-02-27T07:17:38.420Z"
   }
 }
