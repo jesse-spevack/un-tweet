@@ -324,11 +324,42 @@
       "in_reply_to_user_id": null,
       "referenced_tweets": null,
       "lang": "en"
+    },
+    {
+      "id": "2040941355921535389",
+      "text": "I have three totally different active personal side projects with different functionality, but I've just added MCP to all three so now I can access via Claude. It's hard to name a better bang for your buck integration. https://t.co/HzE1OxZ2cn",
+      "created_at": "2026-04-05T23:55:12.000Z",
+      "deleted_at": "2026-04-07T07:29:52.964Z",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 25
+      },
+      "entities": {
+        "urls": [
+          {
+            "start": 219,
+            "end": 242,
+            "url": "https://t.co/HzE1OxZ2cn",
+            "expanded_url": "https://x.com/PlanetEfficacy/status/2040941355921535389/photo/1",
+            "display_url": "pic.x.com/HzE1OxZ2cn",
+            "media_key": "3_2040941066644574208"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2040941355921535389",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": null,
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 8,
-    "last_updated": "2026-02-27T07:17:38.420Z"
+    "total_deleted": 9,
+    "last_updated": "2026-04-07T07:29:53.465Z"
   }
 }
