@@ -475,11 +475,45 @@
         }
       ],
       "lang": "en"
+    },
+    {
+      "id": "2050589447767667018",
+      "text": "RT @metedata: Ok this is sick. I just sent a photo of a bill I got in the mail to my Hermes agent and it just went out, paid it, and filed…",
+      "created_at": "2026-05-02T14:53:17.000Z",
+      "deleted_at": "2026-05-04T07:55:57.420Z",
+      "public_metrics": {
+        "retweet_count": 15,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 12,
+            "username": "metedata",
+            "id": "796087248018087937"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2050589447767667018",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": [
+        {
+          "type": "retweeted",
+          "id": "2049866865590120525"
+        }
+      ],
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 12,
-    "last_updated": "2026-05-01T07:44:27.630Z"
+    "total_deleted": 13,
+    "last_updated": "2026-05-04T07:55:57.922Z"
   }
 }
