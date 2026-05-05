@@ -509,11 +509,79 @@
         }
       ],
       "lang": "en"
+    },
+    {
+      "id": "2051089178520371525",
+      "text": "I just had Claude convert an essay on Agentic Commerce to audio so I can listen to it on my walk. I used the @link Agent Wallet from @stripe to pay for the text2speech on https://t.co/1ZkDxsFFJA my wknd proj using Machine Payments Protocol via shared payment token https://t.co/mBVUOPNAQ2",
+      "created_at": "2026-05-03T23:59:02.000Z",
+      "deleted_at": "2026-05-05T07:36:48.391Z",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 88
+      },
+      "entities": {
+        "mentions": [
+          {
+            "start": 109,
+            "end": 114,
+            "username": "link",
+            "id": "1896618455928901632"
+          },
+          {
+            "start": 133,
+            "end": 140,
+            "username": "stripe",
+            "id": "102812444"
+          }
+        ],
+        "urls": [
+          {
+            "start": 171,
+            "end": 194,
+            "url": "https://t.co/1ZkDxsFFJA",
+            "expanded_url": "http://PodRead.app",
+            "display_url": "PodRead.app",
+            "images": [
+              {
+                "url": "https://pbs.twimg.com/news_img/2051089189366906880/grtA4PtM?format=jpg&name=orig",
+                "width": 1200,
+                "height": 630
+              },
+              {
+                "url": "https://pbs.twimg.com/news_img/2051089189366906880/grtA4PtM?format=jpg&name=150x150",
+                "width": 150,
+                "height": 150
+              }
+            ],
+            "status": 200,
+            "title": "PodRead",
+            "description": "Turn any article into a podcast episode. Listen in your favorite podcast app.",
+            "unwound_url": "https://podread.app/"
+          },
+          {
+            "start": 265,
+            "end": 288,
+            "url": "https://t.co/mBVUOPNAQ2",
+            "expanded_url": "https://x.com/PlanetEfficacy/status/2051089178520371525/video/1",
+            "display_url": "pic.x.com/mBVUOPNAQ2",
+            "media_key": "13_2051088506035040256"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2051089178520371525",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": null,
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 13,
-    "last_updated": "2026-05-04T07:55:57.922Z"
+    "total_deleted": 14,
+    "last_updated": "2026-05-05T07:36:48.893Z"
   }
 }
