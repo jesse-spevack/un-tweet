@@ -800,11 +800,57 @@
         }
       ],
       "lang": "en"
+    },
+    {
+      "id": "2086153899287998467",
+      "text": "@miles_matthias @AdamWhitcroft @miles_matthias herdr. trust me.",
+      "created_at": "2026-08-08T18:13:43.000Z",
+      "deleted_at": "2026-08-10T08:21:12.143Z",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 19,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "entities": {
+        "mentions": [
+          {
+            "end": 15,
+            "id": "129343561",
+            "start": 0,
+            "username": "miles_matthias"
+          },
+          {
+            "end": 30,
+            "id": "25791837",
+            "start": 16,
+            "username": "AdamWhitcroft"
+          },
+          {
+            "end": 46,
+            "id": "129343561",
+            "start": 31,
+            "username": "miles_matthias"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2085733798407537118",
+      "in_reply_to_user_id": "129343561",
+      "referenced_tweets": [
+        {
+          "id": "2085796867229855884",
+          "type": "replied_to"
+        }
+      ],
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 20,
-    "last_updated": "2026-07-20T09:50:03.006Z"
+    "total_deleted": 21,
+    "last_updated": "2026-08-10T08:21:12.645Z"
   }
 }
