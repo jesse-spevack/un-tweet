@@ -846,11 +846,45 @@
         }
       ],
       "lang": "en"
+    },
+    {
+      "id": "2091289322050011149",
+      "text": "@jasonfried I can't wait for the HEY CLI.",
+      "created_at": "2026-08-22T22:20:03.000Z",
+      "deleted_at": "2026-08-24T07:50:11.621Z",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 98,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "entities": {
+        "mentions": [
+          {
+            "end": 11,
+            "id": "14372143",
+            "start": 0,
+            "username": "jasonfried"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2090861571824361488",
+      "in_reply_to_user_id": "14372143",
+      "referenced_tweets": [
+        {
+          "id": "2090861571824361488",
+          "type": "replied_to"
+        }
+      ],
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 21,
-    "last_updated": "2026-08-10T08:21:12.645Z"
+    "total_deleted": 22,
+    "last_updated": "2026-08-24T07:50:12.122Z"
   }
 }
