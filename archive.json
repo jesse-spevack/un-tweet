@@ -880,11 +880,40 @@
         }
       ],
       "lang": "en"
+    },
+    {
+      "id": "2092359902089838638",
+      "text": "@37signals I'm using Hey CLI to go through my email with Claude and I feel incredible. All my weird systems and habits are getting codified and automated.",
+      "created_at": "2026-08-25T21:14:09.000Z",
+      "deleted_at": "2026-08-27T17:59:16.809Z",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 95,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "entities": {
+        "mentions": [
+          {
+            "end": 10,
+            "id": "11132462",
+            "start": 0,
+            "username": "37signals"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2092359902089838638",
+      "in_reply_to_user_id": "11132462",
+      "referenced_tweets": null,
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 22,
-    "last_updated": "2026-08-24T07:50:12.122Z"
+    "total_deleted": 23,
+    "last_updated": "2026-08-27T17:59:17.310Z"
   }
 }
