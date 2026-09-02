@@ -989,11 +989,51 @@
         }
       ],
       "lang": "en"
+    },
+    {
+      "id": "2094513853015146983",
+      "text": "RT @mrramibanna: Want to see Stripe Projects go from prompt → provisioned app stack, live?\n\n@moeghashim is hosting a community launch event…",
+      "created_at": "2026-08-31T19:53:11.000Z",
+      "deleted_at": "2026-09-02T11:52:23.650Z",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 5
+      },
+      "entities": {
+        "mentions": [
+          {
+            "end": 15,
+            "id": "1971666583",
+            "start": 3,
+            "username": "mrramibanna"
+          },
+          {
+            "end": 103,
+            "id": "73210999",
+            "start": 92,
+            "username": "moeghashim"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2094513853015146983",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": [
+        {
+          "id": "2094490590151139798",
+          "type": "retweeted"
+        }
+      ],
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 25,
-    "last_updated": "2026-08-30T12:27:24.162Z"
+    "total_deleted": 26,
+    "last_updated": "2026-09-02T11:52:24.151Z"
   }
 }
