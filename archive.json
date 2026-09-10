@@ -1069,11 +1069,76 @@
         }
       ],
       "lang": "en"
+    },
+    {
+      "id": "2097352137168892048",
+      "text": "@dhh @stripe 's https://t.co/Q9KxVwvJuu - I think you'll like what we are cooking!",
+      "created_at": "2026-09-08T15:51:31.000Z",
+      "deleted_at": "2026-09-10T11:58:00.001Z",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 29,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "entities": {
+        "mentions": [
+          {
+            "end": 4,
+            "id": "14561327",
+            "start": 0,
+            "username": "dhh"
+          },
+          {
+            "end": 12,
+            "id": "102812444",
+            "start": 5,
+            "username": "stripe"
+          }
+        ],
+        "urls": [
+          {
+            "description": "Let your agents pay online using one-time-use cards or with machine payment protocols. You approve every request.",
+            "display_url": "link.com/agents",
+            "end": 39,
+            "expanded_url": "https://link.com/agents",
+            "images": [
+              {
+                "height": 1260,
+                "url": "https://pbs.twimg.com/news_img/2096282420500922369/QDRtO7m0?format=jpg&name=orig",
+                "width": 2400
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2096282420500922369/QDRtO7m0?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 16,
+            "status": 200,
+            "title": "Give your agent a wallet you control.",
+            "unwound_url": "https://link.com/agents",
+            "url": "https://t.co/Q9KxVwvJuu"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2097317603186229297",
+      "in_reply_to_user_id": "14561327",
+      "referenced_tweets": [
+        {
+          "id": "2097317603186229297",
+          "type": "replied_to"
+        }
+      ],
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 27,
-    "last_updated": "2026-09-03T11:50:33.011Z"
+    "total_deleted": 28,
+    "last_updated": "2026-09-10T11:58:00.502Z"
   }
 }
