@@ -1134,11 +1134,51 @@
         }
       ],
       "lang": "en"
+    },
+    {
+      "id": "2100376158558921064",
+      "text": "RT @tongxgalaxy: We're building the single fastest, token-cheapest way to navigate the internet with @stripe directory, \n\nbeginning with ma…",
+      "created_at": "2026-09-17T00:07:53.000Z",
+      "deleted_at": "2026-09-18T11:59:02.667Z",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 3
+      },
+      "entities": {
+        "mentions": [
+          {
+            "end": 15,
+            "id": "258004929",
+            "start": 3,
+            "username": "tongxgalaxy"
+          },
+          {
+            "end": 108,
+            "id": "102812444",
+            "start": 101,
+            "username": "stripe"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2100376158558921064",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": [
+        {
+          "id": "2100225907210494345",
+          "type": "retweeted"
+        }
+      ],
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 28,
-    "last_updated": "2026-09-10T11:58:00.502Z"
+    "total_deleted": 29,
+    "last_updated": "2026-09-18T11:59:03.169Z"
   }
 }
