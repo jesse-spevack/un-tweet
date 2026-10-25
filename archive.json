@@ -1298,11 +1298,51 @@
         }
       ],
       "lang": "en"
+    },
+    {
+      "id": "2113650936854073421",
+      "text": "RT @stevekaliski: Every single day @stripe I use Orbit to help me plan and write my code. Our entire dev environment, context of Stripe, an…",
+      "created_at": "2026-10-23T15:17:07.000Z",
+      "deleted_at": "2026-10-25T12:13:07.791Z",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "entities": {
+        "mentions": [
+          {
+            "end": 16,
+            "id": "207708725",
+            "start": 3,
+            "username": "stevekaliski"
+          },
+          {
+            "end": 42,
+            "id": "102812444",
+            "start": 35,
+            "username": "stripe"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2113650936854073421",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": [
+        {
+          "id": "2113458510839304506",
+          "type": "retweeted"
+        }
+      ],
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 32,
-    "last_updated": "2026-10-09T14:00:13.040Z"
+    "total_deleted": 33,
+    "last_updated": "2026-10-25T12:13:08.293Z"
   }
 }
