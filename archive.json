@@ -1338,11 +1338,45 @@
         }
       ],
       "lang": "en"
+    },
+    {
+      "id": "2114079347648913719",
+      "text": "RT @tongxgalaxy: Are you building google analytics, but for agents? \n\nPlease DM me! Would love to help support your biz.",
+      "created_at": "2026-10-24T19:39:28.000Z",
+      "deleted_at": "2026-10-26T13:45:10.294Z",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "entities": {
+        "mentions": [
+          {
+            "end": 15,
+            "id": "258004929",
+            "start": 3,
+            "username": "tongxgalaxy"
+          }
+        ]
+      },
+      "source": null,
+      "conversation_id": "2114079347648913719",
+      "in_reply_to_user_id": null,
+      "referenced_tweets": [
+        {
+          "id": "2113653600392241370",
+          "type": "retweeted"
+        }
+      ],
+      "lang": "en"
     }
   ],
   "meta": {
     "created_at": "2026-01-10T14:36:19.012Z",
-    "total_deleted": 33,
-    "last_updated": "2026-10-25T12:13:08.293Z"
+    "total_deleted": 34,
+    "last_updated": "2026-10-26T13:45:10.795Z"
   }
 }
